@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - listas, tabelas e formulários</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid rgb(212, 123, 136);
+
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+    <main></main>
+    <header>
+        <h1>Listas, Tabelas e Formulários</h1>
+    </header>
+    <section>
+        <h2>Glossário</h2>
+        <dl>
+            <dt>HTML:</dt>
+            <dd> Linguagem de marcação usada para estruturar páginas na web.</dd>
+
+            <dt>CSS:</dt>
+            <dd>Folhas de estilo usadas para aparência e layout.</dd>
+
+            <dt>JavaScript:</dt>
+            <dd>Linguagem de progamação usada para adicionar interatividade às páginas</dd>
+        </dl>
+    </section>
+    <hr>
+    <section>
+        <h2>Tabela</h2>
+        <table width="300px" height="300px" cellpadding="30" cellspacing="30">
+            <tr>
+                <th colspan="2">Nome e Idade</th>
+                <!--<th>Idade</th>-->
+            </tr>
+            <tr>
+                <td rowspan="2" align="center" valign="middle">Raíssa</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <!-- <td>Antônio</td>-->
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>19
+            </tr>
+
+            <tr>
+                <td>José</td>
+                <td>19</td>
+            </tr>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>Subitem 1</td>
+                    </tr>
+                    <tr>
+                        <td>Subitem 2</td>
+                    </tr>
+                </table>
+            </td>
+            <!--Item adicional-->
+            <tr>
+                <table border="1">
+                    <td style="background-color:lightpink;">Contato</td>
+                    <td>(19)99999-9999</td>
+                </table>
+            </tr>
+        </table>
+    </section>
+    </main>
+</body>
+
+</html>
