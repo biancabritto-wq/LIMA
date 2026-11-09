@@ -95,6 +95,7 @@ h2 {
     border: 5px solid rgb(252, 202, 107);
     box-sizing: border-box;
 }
+
 #musicas {
     color: white;
     text-align: center;
@@ -112,4 +113,26 @@ h2 {
     padding: 15px;
     border: 2px solid rgb(255, 202, 122);
     color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+}
+
+th,
+td {
+    border: 1px solid rgb(255, 192, 74);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: orange;
+    color: white;
+}
+
+tr {
+    background-color: #ffd899;
 }
