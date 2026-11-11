@@ -81,7 +81,7 @@ h2 {
 
 .content-box {
     background-color: orange;
-    width: 250px;
+    width: 300px;
     padding: 25px;
     border: 5px solid rgb(252, 202, 107);
     box-sizing: content-box;
@@ -103,17 +103,16 @@ h2 {
 }
 
 .lista-musicas {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    justify-content: center;
+    width: 300px;
+    margin: auto;
 }
 
 .lista-musicas li {
-    background-color: orange;
-    padding: 15px;
-    border: 2px solid rgb(255, 202, 122);
+    background-color: #fbc551;
     color: white;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 5px;
 }
 
 table {
