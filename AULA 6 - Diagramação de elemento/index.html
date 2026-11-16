@@ -15,29 +15,45 @@
         justify-content: left;
         background-color: white;
         border: 6px solid black;
-        box-shadow: 2px 4px black;
+        box-shadow: 2px black;
+        position: relative;
+        /*float: right;*/
 
     }
+
     img {
         width: 100px;
         height: 100px;
         background-color: hotpink;
+        position: fixed;
+        left: 100px;
     }
-    span{
+
+    span {
         font-size: 20px;
         vertical-align: bottom;
     }
+
     .item1 {
         width: 150px;
         height: 150px;
         background-color: red;
         display: inline-block;
+        position: relative;
+        left: 30px;
+        z-index: 1;
+
     }
+
     .item2 {
         width: 150px;
         height: 150px;
         background-color: blue;
         display: inline-block;
+        position: absolute;
+        right: 150px;
+        z-index: 2;
+
     }
 </style>
 
@@ -47,12 +63,13 @@
             adipisci quo alias laborum temporibus id, reprehenderit animi! Dolor soluta eaque ipsam accusamus cum
             voluptatem minima?</p>
         <button>Loren</button>
-    <div>
-        <img>
-        <span>Exemplo vertical-align</span>
+        <div>
+            <img>
+            <span>Exemplo vertical-align</span>
+        </div>
+        <div class="item1"> ITEM 1</div>
+        <div class="item2"> ITEM 2</div>
     </div>
-    <div class="item1"> ITEM 1</div>
-    <div class="item2"> ITEM 2</div>
-</body>
+      
 
 </html>
