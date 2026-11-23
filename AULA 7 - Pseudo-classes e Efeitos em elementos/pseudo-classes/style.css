@@ -1,0 +1,46 @@
+button:hover{
+    background-color: hotpink;
+    color: white;
+    cursor: pointer;
+}
+
+input:focus{
+    border: 2px solid pink;
+    background-color: #ffe4f7;
+    outline: pink;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p:first-child{
+font-weight: bold;
+}
+
+li:last-child{
+    color: #b31b67;
+}
+
+tr:nth-child(even) { /*Linhas pares*/
+    background-color:rgb(80, 202, 196);
+}
+
+tr:nth-child(odd){ /*Linhas ímpares*/
+    background-color: #71dad5;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,th{
+    border: 1px solid #44918d;
+    padding: 8px;
+    text-align: center;
+}
